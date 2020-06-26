@@ -1,0 +1,226 @@
+.app {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+header, footer{
+  padding: 1.2em 0;
+}
+
+header button, footer button{
+  margin-right: 15px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  color: #fff;
+  background-color: #3d195b;
+  text-align: center;
+  letter-spacing: .5px;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+header button:hover,
+header button:active, 
+footer button:hover,
+footer button:active{
+  background-color: #2bbbad;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+  outline: 0;
+}
+
+.container{
+  display: flex;
+}
+
+.league-info{
+  margin-bottom: 1.2em;
+  align-self: center;
+}
+
+.league-info h1{
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0 0 .5em;
+}
+.league-info span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.standings{
+  opacity: 0.9;
+  margin: 0 auto;
+  border: 1px solid #3f377c;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.standings .table-head{
+  background-color: #3d195b;
+  color: #fff;
+}
+
+.standings .table-head,
+.standings .team-position{
+  /* color: #878787;  */
+  padding: 10px;
+}
+
+.standings .team-position{
+  text-align: left;
+}
+
+.standings tr{
+  border-bottom: 1px solid #dedede;
+  line-height: 2.3em;
+}
+
+.standings tr:last-child{
+  border: none;
+}
+
+.standings td{
+  width: 35px;
+  padding: 10px;
+}
+
+.standings .team-name{
+  width: 270px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.crest{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.crest img{
+  width: 100%;
+  height: 100%;
+}
+
+.standings .team-points{
+  font-weight: bold;
+}
+
+.standings{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:678px) {
+  body{
+    font-size: 14px;
+  }
+  .league-info {
+    display: none;
+  }
+
+  .table-body{
+    margin: 2px;
+  }
+
+  .standings .team-name{
+    width: 120px;
+    padding: 10px 2px;
+  }
+
+  header button, footer button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 678px) and (max-width:972px) {
+  .league-info {
+    display: none;
+  }
+
+  .table-body{
+    margin: 2px;
+  }
+
+  .standings .team-name{
+    width: 180px;
+    padding: 10px 1px;
+  }
+
+  header button, footer button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+  .Row{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+  }
+  .Col{
+    width: 50%;
+  }
+
+  @media screen and (max-width:972px) {
+    .Row{
+      display: block;
+    }
+    .Col{
+      width: 100%;
+    }
+  }
+
+  .Welcome-Row{
+    width: 100%;
+    display: flex;
+  }
+
+  .Welcome-Row .Col-1{
+    width: 25%;
+  } 
+  .Welcome-Row .Col-2{
+    font-family: cursive;
+    width: 50%;
+  }
+  .Welcome-Row .Col-3{
+    width: 25%;
+  }
+  .Welcome-Row .Col-3 button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    width: 120px;
+    height: 70px;
+    color: #3d195b;
+    background-color: #fff;
+    border: 1px solid #3d195b;
+  }
+
+  .signoff{
+    color: #3d195b;
+    font-size: 18px;
+  }
+  .signoff a{
+    text-decoration: none;
+  }
