@@ -45,6 +45,11 @@ footer button:active{
   outline: 0;
 }
 
+#know-more-btn a{
+  text-decoration: none;
+  color: #3d195b;
+}
+
 .container{
   display: flex;
 }

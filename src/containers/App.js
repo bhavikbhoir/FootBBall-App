@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Welcome from '../components/Welcome';
 import Fixtures from '../components/Fixtures';
 import grass from '../img/grass-texture.jpg';
+// import pitch from '../img/pitch.jpg';
 import Signoff from '../components/Signoff';
 
 const divStyle = {
