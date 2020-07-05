@@ -12,7 +12,6 @@ import grass from '../img/grass-texture.jpg';
 import Signoff from '../components/Signoff';
 
 const divStyle = {
-  // backgroundColor: '#3d195b',
   backgroundImage: `url(${grass})`,
   backgroundSize: 'contain',
   backgroundRepeat: 'round',
@@ -110,7 +109,6 @@ class App extends Component {
       </div>
     );
   }
-
 }
 
 export default App;
