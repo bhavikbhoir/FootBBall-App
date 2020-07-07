@@ -28,4 +28,39 @@
     <script src="/static/js/main.2bbd40a6.chunk.js"></script>
 </body>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCf4K-BeKMG9q8Gv6Ho4RDCdB2Ac9sGNDw",
+    authDomain: "the-footbball-app.firebaseapp.com",
+    databaseURL: "https://the-footbball-app.firebaseio.com",
+    projectId: "the-footbball-app",
+    storageBucket: "the-footbball-app.appspot.com",
+    messagingSenderId: "460648938171",
+    appId: "1:460648938171:web:a0ce791258a6348ff1c79e",
+    measurementId: "G-6V23W3S1H3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCf4K-BeKMG9q8Gv6Ho4RDCdB2Ac9sGNDw",
+    authDomain: "the-footbball-app.firebaseapp.com",
+    databaseURL: "https://the-footbball-app.firebaseio.com",
+    projectId: "the-footbball-app",
+    storageBucket: "the-footbball-app.appspot.com",
+    messagingSenderId: "460648938171",
+    appId: "1:460648938171:web:a0ce791258a6348ff1c79e",
+    measurementId: "G-6V23W3S1H3"
+  };
+
 </html>
