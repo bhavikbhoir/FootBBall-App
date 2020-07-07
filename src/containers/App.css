@@ -4,7 +4,6 @@
   max-width: auto;
   margin: 0 auto;
 }
-
 header, footer{
   padding: 1.2em 0;
 }
@@ -139,6 +138,7 @@ footer button:active{
 @media screen and (max-width:678px) {
   body{
     font-size: 14px;
+    width: fit-content;
   }
   .league-info {
     display: none;
@@ -228,4 +228,9 @@ footer button:active{
   }
   .signoff a{
     text-decoration: none;
+  }
+  body {
+    margin: none;
+    padding: 0;
+    font-family: sans-serif;
   }

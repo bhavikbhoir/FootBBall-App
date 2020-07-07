@@ -6,7 +6,7 @@ const Welcome = (props) => {
     return (
         <div className="Welcome-content">
         <div className="Welcome-Row">
-            <div className="Col-1">
+            <div className="Col-1 xs={12}">
                 {/* <img
                 width={100}
                 height={100}
@@ -23,10 +23,10 @@ const Welcome = (props) => {
                 muted
                 />
             </div>
-            <div className="Col-2">
+            <div className="Col-2 xs={12}">
                 <h2>Welcome to The Foot'BB'all App<br />Home of your favourite ball game</h2>
             </div>
-            <div className="Col-3">
+            <div className="Col-3 xs={12}">
                 <button id="know-more-btn"><a href="#">Know More!</a></button>
             </div>
         </div>
